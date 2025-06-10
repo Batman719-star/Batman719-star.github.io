@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('images/3425081.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+span{
+    color: transparent;
+    font-weight: 800;
+    font-size: 45px;
+    -webkit-text-stroke: 2px white;
+}
+body .garis{
+    border: 2px solid white;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 540px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 50px;
+}
+nav img{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+.navbar a:hover{
+    background-color: rgba(81, 81, 199, 0.5);
+    transition: 0.5s all ease;
+    border-radius: 6px;
+    transform: scaleX(1.05);
+}
+.logo img{
+    width: 30%;
+    height: auto;
+}
+.judul h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card1{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 30%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 1, 110, 0.3);
+}
+.card1 img{
+    width: 40px;
+    height: 40px;
+}
+.card1:hover{
+    transition: all ease 0.5s;
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+.card2{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.card2 img{
+    width: 40px;
+    height: 40px;
+}
+.card2:hover{
+    transition: all ease 0.5s;
+    transform: scale(1.05);
+    background: #ffffff;
+}
+.card3{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(24, 118, 242, 0.3);
+}
+.card3 img{
+    width: 40px;
+    height: 40px;
+}
+.card3:hover{
+    transition: all ease 0.5s;
+    transform: scale(1.05);
+    background: #1877F2;
+}
+.separator{
+    width: 2px;
+    height: 20px;
+    background-color: white;
+}
+.separator2{
+    width: 2px;
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer span{
+    color: transparent;
+    font-weight: 800;
+    font-size: 60px;
+    -webkit-text-stroke: 2px white;
+}
+.gambar-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+.ceo1 img{
+    width: 70%;
+    height: auto;
+    background: linear-gradient(to bottom, transparent, rgba(255, 0, 0, 0.3) 50%);
+    border-radius: 15px;
+}
+.ceo1 img:hover{
+    transform: scale(1.01);
+    transition: all ease 0.5s;
+    background: linear-gradient(to bottom, transparent, rgba(255, 0, 0, 0.7) 50%);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.ceo2 img{
+    width: 70%;
+    height: auto;
+    background: linear-gradient(to bottom, transparent, rgba(0, 102, 255, 0.3) 50%);
+    border-radius: 15px;
+}
+.ceo2 img:hover{
+    transform: scale(1.01);
+    transition: all ease 0.5s;
+    background: linear-gradient(to bottom, transparent, rgba(0, 102, 255, 0.7) 50%);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.ceo1 h2{
+    color: transparent;
+    font-weight: 800;
+    font-size: 60px;
+    -webkit-text-stroke: 2px white;
+    background: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.5) 50%);
+    border-radius: 10px;
+    background-size: cover;
+    margin-top: -13px;
+}
+.ceo2 h2{
+    color: transparent;
+    font-weight: 800;
+    font-size: 60px;
+    -webkit-text-stroke: 2px white;
+    background: linear-gradient(to right, transparent, rgba(4, 0, 255, 0.5) 50%);
+    border-radius: 10px;
+    background-size: cover;
+    margin-top: -13px;
+}
+.socmed{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 100px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+    padding: 5px 30px 10px 10px;
+    border-radius: 0px 85% 0px 0px;
+}
+.ref{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    gap: 10px;
+}
+.ref p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.ref img{
+    width: 4%;
+    height: auto;
+}
+.onei{
+    display: flex;
+    width: 70%;
+    gap: 5px;
+}
+.onei img{
+    width: 5%;
+    height: auto;
+}
+.onei p{
+    font-weight: 500;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 1;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+footer{
+    animation: appear 2s linear;
+}
+@media (max-width: 600px){
+    .navbar a{
+        font-size: 15px;
+    }
+    nav{
+        display: flex;
+        gap: 0px;
+        padding: 40px;
+    }
+    .navbar{
+        display: flex;
+        gap: 5px;
+    }
+    .footer span{
+        font-size: 45px;
+    }
+    .separator2{
+        display: flex;
+        width: 200px;
+        height: 2px;
+        margin-top: 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px){
+    .navbar a{
+        font-size: 10px;
+    }
+    .navbar{
+        gap: 1px;
+    }
+    .logo img{
+        width: 55%;
+    }
+    nav{
+        padding: 15px;
+        gap: 5px;
+    }
+    .logo{
+        text-align: left;
+        padding: 0px;
+    }
+    .footer span{
+        font-size: 35px;
+        -webkit-text-stroke: 1px white;
+    }
+    .gambar-footer{
+        gap: 30px;
+        margin-top: 3px;
+    }
+    .ceo1 h2{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .ceo2 h2{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+/* @media (min-width: 1025px) {
+    .socmed{
+        margin-top: 145px;
+    }
+    nav{
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 750px;
+    }
+    .ref{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        gap: 10px;
+        margin-right: 100px;
+        margin-left: 0px;
+    }
+    .ref p{
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+    .ref img{
+        width: 3%;
+        height: auto;
+    }
+} */
