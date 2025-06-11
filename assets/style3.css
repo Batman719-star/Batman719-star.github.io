@@ -34,7 +34,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 300px;
-    padding: 50px;
+    padding: 30px 40px 50px 40px;
 }
 nav img{
     width: 100%;
@@ -262,89 +262,3 @@ nav img{
 footer{
     animation: appear 2s linear;
 }
-@media (max-width: 600px){
-    .navbar a{
-        font-size: 15px;
-    }
-    nav{
-        display: flex;
-        gap: 0px;
-        padding: 40px;
-    }
-    .navbar{
-        display: flex;
-        gap: 5px;
-    }
-    .footer span{
-        font-size: 45px;
-    }
-    .separator2{
-        display: flex;
-        width: 200px;
-        height: 2px;
-        margin-top: 0px;
-    }
-}
-@media (min-width: 320px) and (max-width: 600px){
-    .navbar a{
-        font-size: 10px;
-    }
-    .navbar{
-        gap: 1px;
-    }
-    .logo img{
-        width: 55%;
-    }
-    nav{
-        padding: 15px;
-        gap: 5px;
-    }
-    .logo{
-        text-align: left;
-        padding: 0px;
-    }
-    .footer span{
-        font-size: 35px;
-        -webkit-text-stroke: 1px white;
-    }
-    .gambar-footer{
-        gap: 30px;
-        margin-top: 3px;
-    }
-    .ceo1 h2{
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    .ceo2 h2{
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-}
-/* @media (min-width: 1025px) {
-    .socmed{
-        margin-top: 145px;
-    }
-    nav{
-        padding-left: 10px;
-        padding-right: 10px;
-        gap: 750px;
-    }
-    .ref{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        gap: 10px;
-        margin-right: 100px;
-        margin-left: 0px;
-    }
-    .ref p{
-        font-size: 20px;
-        color: white;
-        font-weight: 500;
-    }
-    .ref img{
-        width: 3%;
-        height: auto;
-    }
-} */
