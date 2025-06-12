@@ -102,8 +102,8 @@ nav{
 .isi span{
     -webkit-text-stroke: 1px hsl(0, 0%, 100%);
     color: transparent;
-    font-size: 40px;
-    padding-left: 9px;
+    font-size: 50px;
+    padding-left: 0px;
 }
 .isi p{
     font-size: 18px;
@@ -148,7 +148,7 @@ footer h1{
 }
 /* Layar handphone */
 @media (min-width: 320px) and (max-width: 480px) {
-    footer h1{
+footer h1{
     animation: identifier 2.5s linear;   
 }
 .card img{
@@ -228,7 +228,7 @@ nav{
     padding-left: 0px;
 }
 .isi p{
-    font-size: 6px;
+    font-size: 9px;
     font-weight: 500;
     text-align: center;
     margin-top: 0px;
@@ -248,12 +248,12 @@ h1{
     justify-content: flex-start;
 }
 .logo img{
-    width: 40%;
+    width: 30%;
     height: auto;
 }
 footer{
     animation: appear 2s line;
-    margin-top: 20px;      
+    margin-top: 145px;      
 }
 footer span{
     font-size: 20px;
@@ -278,15 +278,5 @@ footer h1{
 .card img{
     width: 20%;
     height: auto;
-}
-}
-/* Layar dekstop */
-@media (min-width: 1200px) {
-nav{
-    gap: 800px;
-    padding: 30px 10px 50px 10px;
-}
-.isi{
-    margin: 5px 230px 30px 230px;
 }
 }
