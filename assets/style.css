@@ -148,7 +148,9 @@ footer h1{
 }
 /* Layar handphone */
 @media (min-width: 320px) and (max-width: 480px) {
-
+nav{
+    display: none;
+}
 }
 /* Layar dekstop */
 @media (min-width: 1200px) {
