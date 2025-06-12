@@ -148,8 +148,136 @@ footer h1{
 }
 /* Layar handphone */
 @media (min-width: 320px) and (max-width: 480px) {
+    footer h1{
+    animation: identifier 2.5s linear;   
+}
+.card img{
+    animation: appear 3s linear;
+}
+body{
+    background-image: url('images/3425081.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 0px;
+}
+span{
+    color: transparent;
+    font-weight: 800;
+    font-size: 20px;
+    -webkit-text-stroke: 0.15vw white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+header>h1{
+    font-size: 20px;
+}
+main img{
+    width: 14%;
+    height: auto;
+}
 nav{
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 12px;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    gap: 0px;
+    padding: 0;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 9px;
+    color: white;
+    font-weight: 600;
+}
+.navbar a:hover{
+    background-color: rgba(81, 81, 199, 0.5);
+    transition: 0.5s all ease;
+    border-radius: 6px;
+    transform: scaleX(1.05);
+}
+.isi{
+    margin: 0px 9px 0px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0% 20% 0% 20%;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+}
+.isi span{
+    -webkit-text-stroke: 1px hsla(0, 0%, 100%, 0.705);
+    color: transparent;
+    font-size: 17px;
+    padding-left: 0px;
+}
+.isi p{
+    font-size: 6px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0px;
+    padding: 1px 10px 15px 10px;
+}
+.isi h1{
+    font-size: 12px;
+}
+h1{
+    color: white;
+}
+.logo{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 40%;
+    height: auto;
+}
+footer{
+    animation: appear 2s line;
+    margin-top: 20px;      
+}
+footer span{
+    font-size: 20px;
+}
+footer h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url('images/juara.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, rgb(255, 255, 255) 5%);
+    mask-image: linear-gradient(to bottom, transparent, rgb(255, 255, 255) 5%);
+    padding: 10px 0px 0px 0px;
+}
+.card img{
+    width: 20%;
+    height: auto;
 }
 }
 /* Layar dekstop */
