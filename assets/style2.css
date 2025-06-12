@@ -144,3 +144,14 @@ nav img{
     transition: all ease 0.5s;
     cursor: pointer;
 }
+/* Layar handphone */
+@media (min-width: 320px) and (max-width: 480px){
+
+}
+/* Layar dekstop */
+@media (min-width: 1200px) {
+nav{
+    gap: 800px;
+    padding: 30px 10px 50px 10px;
+}
+}

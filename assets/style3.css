@@ -262,3 +262,13 @@ nav img{
 footer{
     animation: appear 2s linear;
 }
+/* Layar dekstop */
+@media (min-width: 1200px) {
+nav{
+    gap: 800px;
+    padding: 30px 10px 50px 10px;
+}
+.socmed{
+    margin-top: 159px;
+}
+}
