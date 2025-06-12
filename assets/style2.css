@@ -177,6 +177,17 @@ nav{
     border-radius: 6px;
     transform: scaleX(1.05);
 }
+.logo{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 30%;
+    height: auto;
+}
 .judul{
     display: flex;
     align-items: center;
