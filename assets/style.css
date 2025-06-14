@@ -180,8 +180,11 @@ header{
     justify-content: center;
     gap: 7px;
 }
+header>span{
+    font-size: 40px;
+}
 header>h1{
-    font-size: 20px;
+    font-size: 40px;
 }
 main img{
     width: 14%;
@@ -202,7 +205,7 @@ nav{
 }
 .navbar a{
     text-decoration: none;
-    font-size: 9px;
+    font-size: 14px;
     color: white;
     font-weight: 600;
 }
@@ -218,7 +221,7 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 0% 20% 0% 20%;
+    border-radius: 0% 15% 0% 15%;
     background: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));; 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
@@ -226,18 +229,18 @@ nav{
 .isi span{
     -webkit-text-stroke: 1px hsla(0, 0%, 100%, 0.705);
     color: transparent;
-    font-size: 17px;
+    font-size: 30px;
     padding-left: 0px;
 }
 .isi p{
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 500;
     text-align: center;
     margin-top: 0px;
-    padding: 1px 10px 15px 10px;
+    padding: 0px 15px 15px 15px;
 }
 .isi h1{
-    font-size: 12px;
+    font-size: 17px;
 }
 h1{
     color: white;
@@ -250,7 +253,7 @@ h1{
     justify-content: flex-start;
 }
 .logo img{
-    width: 30%;
+    width: 35%;
     height: auto;
 }
 footer{
@@ -258,11 +261,11 @@ footer{
     margin-top: 400px;      
 }
 footer span{
-    font-size: 20px;
+    font-size: 40px;
 }
 footer h1{
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 800;
     text-align: center;
 }

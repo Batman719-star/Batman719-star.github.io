@@ -21,7 +21,7 @@
             <a href="index.html">Home</a>
             <a href="player.html">Player</a>
             <a href="about.html">About</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
         </div>
     </nav>
     <main>
@@ -31,12 +31,20 @@
                 <img src="assets/images/Mobile Legends-crop.png" alt="">
             </div>
             <div class="team-roster animate__animated animate__fadeInUp">
-                <div class="player">
+                <div class="player"
+                    data-name="Fareza a.k.a Frzz"
+                    data-role="as Gold Laner"
+                    data-bio="Seorang gold laner handal dengan pengalaman di turnamen lokal."
+                    data-image="assets/images/fareza-removebg.png">
                     <img src="assets/images/fareza-removebg.png" alt=""> 
                     <h3>KingFrzz</h3>
                     <p>Gold Laner</p>   
                 </div>
-                <div class="player">
+                <div class="player"
+                    data-name="Rafika a.k.a Rapzz"
+                    data-role="as Jungler"
+                    data-bio="Seorang jungler handal dengan pengalaman di turnamen lokal."
+                    data-image="assets/images/WhatsApp_Image_2025-06-07_at_23.00.17__1___1_-removebg-preview.png">
                     <img src="assets/images/WhatsApp_Image_2025-06-07_at_23.00.17__1___1_-removebg-preview.png" alt=""> 
                     <h3>Kenalin Rapzz.</h3>
                     <p>Jungler</p>   
@@ -79,8 +87,45 @@
             </div>
         </section>
     </main>
+    <div id="playerModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImage" src="" alt="Foto Player">
+      <h2 id="modalName"></h2>
+      <p id="modalRole"></p>
+      <p id="modalBio"></p>
+    </div>
+</div>
+
     <script>
         feather.replace();
+        const modal = document.getElementById('playerModal');
+        const modalName = document.getElementById('modalName');
+        const modalRole = document.getElementById('modalRole');
+        const modalBio = document.getElementById('modalBio');
+        const modalImage = document.getElementById('modalImage');
+        const closeBtn = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.player').forEach(player => {
+            player.addEventListener('click', () => {
+                modalName.innerText = player.dataset.name;
+                modalRole.innerText = player.dataset.role;
+                modalBio.innerText = player.dataset.bio;
+                modalImage.src = player.dataset.image;
+                modal.style.display = 'block';
+            });
+        });
+
+        closeBtn.onclick = function () {
+            modal.style.display = 'none';
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+
     </script>
 </body>
 </html>
