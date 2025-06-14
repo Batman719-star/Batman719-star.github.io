@@ -163,20 +163,23 @@ nav img{
     margin: auto;
     padding: 30px;
     border-radius: 15px;
-    width: 90%;
-    max-width: 500px;
+    width: 320px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.7);
     text-align: center;
     position: relative;
-    animation: fadeInUp 0.3s ease-out;
-    margin-top: 10%;
+    animation: fadeInUp 0.2s ease-out;
+    margin-top: 5%;
 }
 .modal-content img {
     width: 250px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
-    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.5);
+    background-image: url('images/ling___night_shade_mlbb_png_by_dechunf_dea5077.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .modal-content h2 {
     font-size: 28px;
@@ -203,8 +206,8 @@ nav img{
 }
 @keyframes fadeInUp {
     from {
-        opacity: 0;
-        transform: translateY(40px);
+        opacity: 0.5;
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
